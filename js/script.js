@@ -471,7 +471,7 @@ $(function() {
             }
 
             target_tag += '<li style="list-style:none;"><div>' + target.name + "</div>";
-            target_tag += '<div class="note">' + target.notice + "</div></li>";
+            target_tag += '<div class="note"> ' + target.notice + "</div></li>";
           }
 
           target_tag += "</ul>";
